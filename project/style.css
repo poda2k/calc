@@ -1,0 +1,180 @@
+.nav_bar{                                 /*  website nav bar needs modification . <<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>   */
+    background-color: rgb(255, 255, 255);
+    overflow:hidden ;
+    height:80px ;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+body{
+    /* background-image: url('assets/pic1.jpg'); */
+    margin: 0;
+    background-color: rgb(121, 121, 121);
+  
+}
+/* nav h1 {
+    padding-left: 150px ;
+} */
+nav ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding-top:20px ;
+    padding-left: 200px;
+    font-size: 25px;
+    position: relative;
+}
+
+nav li{
+    display: inline;
+    padding: 20px ;
+    font-size: 30px;
+    
+}
+ a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0px;
+    top: 75px;
+    left: 100px;
+    background-color:  rgb(5, 5, 5);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-in-out;
+}
+ a:hover:after{
+    transform: scaleX(1);
+  transform-origin: bottom left;
+  background-color:  rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    padding-top: 40px ;
+    padding-bottom: 40px;
+
+}
+
+nav ul li button{
+    width: 40px;
+    height: 15px;
+}
+/* a :hover{
+    background-color: yellow ;
+} */
+
+/* .child-1{
+    text-align: center;
+    height: 20px;
+    position: relative;
+    bottom: 150px ;
+    left: 150px;
+    
+} */
+.parent-1{
+    /* background-image: url('assets/pic2.jpg'); */
+    /* background-size: cover; */
+    height: 450px;
+    padding-top: 20px;
+    position: absolute;
+    /* left: 75px; */
+    top: 100px ;
+    background-color: rgb(233, 46, 9);
+    width: 100%;
+    
+}
+.img1:hover{
+    transform: rotate(360deg) ;
+    transform: scale(1.11);
+    transition: ease 0.8s ;
+}
+.img1:active{
+    transform: translateY(4px);
+}
+.child-1{
+    position: absolute;
+    padding-left: 75px;
+
+    
+}
+.search-control{
+    border-radius: 20px;
+}
+.search-btn{
+    position : relative ;
+    top: 3px ;
+    width: 100px;
+    height: 20px;
+    background-color: rgb(233, 46, 9);
+    border-radius: 20px;
+    color:rgb(54, 33, 148) ;
+    font-size: 15px;
+    
+}
+.search-btn:hover{
+    transform: rotate(360deg) ;
+    transform: scale(1.1);
+    transition: ease 0.2s ;
+}
+.search-btn:active{
+    transform: translateY(4px);
+
+}
+p{
+    position: absolute;
+    top:670px;
+    left:50px;
+    font-size: 20px;
+    text-align: center;
+}
+footer{
+ 
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top:1600px;
+}
+#footer-img{
+    height:40px;
+    width: 30px;
+    position: absolute;
+    top:20px;
+    left:1400px;
+}
+#pic5{
+    position: absolute;
+    top:600px;
+    left:810px;
+    height: 430px;
+    box-shadow: 5px 5px 5px 5px black;
+    border-radius: 10px;
+}
+#footer-h1{
+    text-align: center;
+    color: rgb(54, 33, 148);
+    position: relative;
+    top:20px;
+}
+#body-h1{
+    position: absolute;
+    top:1100px;
+    left: 700px;
+}
+.img2{
+    position: absolute;
+    top:1200px;
+    border-radius: 10px;
+    
+}
+.img2:hover{
+    transform: rotate(360deg) ;
+    transform: scale(1.11);
+    transition: ease 0.8s ;
+}
+.img2:active{
+    transform: translateY(4px);
+}
