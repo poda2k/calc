@@ -1,0 +1,6 @@
+{"name":"Ali","age":"14","city":"Alexandria","country":"Egy"}{"name":"john","age":"42","city":"newyork","country":"America"}{"name":"ahmed","age":"33","city":"texas","country":"America"}
+{"name":"yussif","age":"20","city":"luxor","country":"Egy"}
+{"name":"abdallah","age":"22","city":"texas","country":"America"}
+{"name":"yasser","age":"62","city":"hongkong","country":"china"}
+{"name":"anwer","age":"90","city":"newyork","country":"America"}
+{"name":"elsayed","age":"55","city":"California","country":"America"}/n{"name":"ziad","age":"30","city":"LA","country":"America"}
