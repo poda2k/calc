@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+.btn-container {
+   background-color: red;
+   position: relative;
+   height:300px;
+   width: 500px;
+   left: 35%;
+}
+
+.Res-container {
+    background-color: rgba(4, 186, 252, 0.389) ;
+    height: 300px;
+    width: 500px;
+    position: relative;
+    left: 35%;
+}
+
+/* #Results2{
+    position: relative;
+    top: 100px;
+    left: 30%;
+    border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid black;
+  width: 15px;
+} */
+.btn-primary{
+    position: relative;
+    left: 40%;
+    top: 50px;
+    font-size: 20px;
+}
+span{
+ background-color: red;
+}
+
+input{
+  position: relative;
+  top: 100px;
+  left: 40%;
+  border: 0;
+outline: 0;
+background: transparent;
+border-bottom: 1px solid black;
+width: 100px;
+}
